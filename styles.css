@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    font-family: "Montserrat";
+}
+
+.topsection {
+    margin-left: 2rem;
+}
+
+#heading {
+    background-color: darkorchid;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    
+}
+
+.container {
+    border: darkorchid solid;
+    border-width: 0.25rem;
+    padding: 2rem;
+    margin: 1rem 2rem 1rem 2rem;
+    border-radius: 0.6rem;
+    height: 12rem;
+}
+
+.image {
+    float: left;
+    height: 12rem;
+    border-radius: 0.7rem;
+}
+
+.card-detail {
+    margin-left: 1rem;
+    float: left;
+}
+
+.rating {
+    float: right;
+}
+
+.action {
+    background-color: lightcoral;
+   
+    
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+}
+
+.thriller {
+    background-color: lightskyblue;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+}
+
+
+
+.rating {
+    color: #32CD32;
+    font-weight: 900;
+    font-size: 2rem;
+    margin-right: 2rem;
+}
+
+.card-detail h1 {
+    margin-bottom: 1.75rem;
+}
+
+.card-detail h3 {
+    font-weight: 400;
+}
+
+
+.thumb-icon { 
+    color: #32CD32;
+    display: inline;
+    size: 3rem;
+}
+.box{
+    padding: 1rem 0;
+}
+
+@media only screen and (max-width:960px) {
+    body{font-size:0.75rem}
+
+    .container {
+        padding: 0.4rem;
+        height: 22rem;
+    }
+
+    .topsection {
+        
+        display: none;
+    }
+
+    .card-detail {
+        padding: 0;
+        margin: 0;
+        display: block;
+        width:60%;
+    }
+
+    .rating {
+        width: 15%;
+        padding: 1rem 0; 
+        font-size: 1rem;
+        color: rgb(12, 153, 235);
+    }
+
+    .thumb-icon {
+        color: darkorchid ! important;
+        
+    }
+
+    
+
+    .percent{
+        color: darkorchid;
+    }
+    .image{width: 100%;}
+   .card-detail p{
+    padding: 0%;
+    width:100%;
+}
+}
+ 
